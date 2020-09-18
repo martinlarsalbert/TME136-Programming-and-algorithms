@@ -8,13 +8,13 @@ if RPM > 9000
     wanted_gear = Gear+1;
 else
     wanted_gear = Gear;
-end;
+end
 
 if wanted_gear==-1
     wanted_gear=1;
-elseif wanted_gear>4;
+elseif wanted_gear>4
    wanted_gear=4;
-end;
+end
     
 gear_demand = wanted_gear;
     
