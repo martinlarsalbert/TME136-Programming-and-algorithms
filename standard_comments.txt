@@ -1,0 +1,18 @@
+__________________________________________
+Bra!
+Tips: det är smart att "indentera koden" d.v.s. att göra ett indrag med tab i if-satser. Då blir koden mycket enklare att läsa.
+Ex:
+
+if fraga == true % Om var = true; tabell skrivs ut
+
+    a=load('kaffeTe.txt'); %ladda txt fil
+    ...
+
+end;
+
+__________________________________________
+Bra, men du får gärna ta bort "hårdkodade värden" för åren 1960 och 2019 i titeln på figuren på rad 91. Använd isället störta och minsta året i den data som du plottar (X1).
+
+För att skriva ut ett numeriskt värde till en sträng kan du använda funktionen "sprintf".
+Ex:
+s = sprintf('Här är ett heltal:%i', 12345)
