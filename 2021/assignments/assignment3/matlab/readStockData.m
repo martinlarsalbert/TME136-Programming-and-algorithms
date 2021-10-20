@@ -3,7 +3,8 @@ function stock = readStockData(filename)
 stockdata = importdata(filename);
 
 % Clean up data
-stockdata(1:2) = [];
+% stockdata(1:2) = [];
+stockdata(1) = []
 
 for i=1:length(stockdata)
     tmp = strsplit(stockdata{i},';');
